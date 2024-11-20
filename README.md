@@ -41,6 +41,8 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
 
 なので、今のうちに、GraphAIの勉強をしておいて下さい。
 
+GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに投稿していただけると、ハッカソンでの審査でその過程を考慮します。投稿時にはtagでGraphAIとつけてください。
+
 
 
 
