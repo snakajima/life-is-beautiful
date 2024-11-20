@@ -4,16 +4,20 @@
 
 アイデアソンは、エンジニアでない人も参加出来るイベントで、「AIを活用した、AI-nativeな製品やサービス」の企画を考えていただき、
 （ChatGPTなどを活用して）プレスリリースの形にした上で、このリポジトリのIssueとして投稿していただくものです。
-一人で複数のエントリーを書くことが可能ですが、それぞれを独立したIssueとして投稿して下さい。
 
 以下が手順です。
 
 1. 「AIを活用した、AI-nativeな製品やサービス」の企画を考える
 2. そのアイデアをChatGPTなどのLLMに説明した上で、プレスリリースの形に仕上げてもらう。
 3. github.com にアカウントを作る（まだ持っていない人）
-4. 作ったプレスリリースを、このリポジトリ（[https://github.com/snakajima/life-is-beautiful](https://github.com/snakajima/life-is-beautiful)）のissueとして投稿する
+4. 作ったプレスリリースを、[このリポジトリ](https://github.com/snakajima/life-is-beautiful)のissueとして投稿する
 
-締め切りは１２月３１日です。
+Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is-beautiful)をブラウザーで開いた上で、画面上位に表示されている"Issues"タブをクリックした上で、
+"New Issue"ボタンを押して、投稿して下さい。
+
+締め切りは１２月３１日ですが、早めに投稿していただいて、後から変更することも可能です。
+
+一人で複数のエントリーを書くことが可能ですが、それぞれを独立したIssueとして投稿して下さい。
 
 
 
