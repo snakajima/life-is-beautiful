@@ -53,7 +53,9 @@ GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに�
 
 ### GraphAIのWebインターフェイス
 
-To be filled.
+GraphAIは、OpenAI、Claudeなどのサービス型のLLMだけでなく、Ollamaで走るローカルなLLMを使うことも可能ですが、Ollama向けのオープンソースなWebUIをGraphAIを使って作り、簡単に実験・テストできるだけでなく、様々なアプリも作れる環境を作りたいと考えています。
+
+GraphAIをWebUI上で動かす仕組みは、Vueベースのものが[ここ](https://github.com/receptron/graphai-demo-web)にあるので、これをベースにしてもらっても良いし、Reactなどを使って新たなものを作っていただいても結構です。
 
 ### GraphAIアプリを自動生成するGraphAIアプリ
 
