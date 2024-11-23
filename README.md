@@ -35,7 +35,7 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
 
 1. [GraphAI](https://github.com/receptron/graphai)を活用した製品・サービス（プロトタイプも可）をオープンソースな形で作っていただきます。
 2. お題としては、以下の４つがあります。
-   1. 音声版podcast（プロダクト開発）
+   1. AI-native 音声版 Instagram（プロダクト開発）
    2. GraphAIのWebインターフェイス（オープンソース・プロジェクト）
    3. GraphAIアプリを自動生成するGraphAIアプリ（研究）
    4. AI-native辞書（プロダクト開発）
@@ -47,9 +47,21 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
 
 GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに投稿していただけると、ハッカソンでの審査でその過程を考慮します。投稿時にはtagでGraphAIとつけてください。
 
+### AI-native 音声版 Instagram
 
+最新のAI技術を活用することにより、誰でも簡単にpodcastを配信することが出来るサービスと、Tiktokのように自分に適したpodcastを簡単に楽しむことが出来る専用アプリの組み合わせで、「音で情報を得る・学ぶ・楽しむ」時代を加速するサービス＋アプリです。ベースになるアプリは既にオープンソースで作ってあるので([AI Podcaster](https://github.com/snakajima/ai-podcaster))、これを活用して開発していただければ良いと思います。
 
+### GraphAIのWebインターフェイス
 
+To be filled.
+
+### GraphAIアプリを自動生成するGraphAIアプリ
+
+To be filled.
+
+### AI-native辞書
+
+To be filled.
 
 
 
