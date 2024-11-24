@@ -61,7 +61,7 @@ GraphAIをWebUI上で動かす仕組みは、以下のものがあるので、�
 - [VueベースのWebUI](https://github.com/receptron/graphai-demo-web)
 - [litegraphを使ったもの](https://github.com/receptron/graphai-litegraph)
 - [サーバのagent list api を叩いて動的に利用可能なagentのリストを取得する仕組み](https://github.com/receptron/graphai-playground)、サーバー側は[こちら](https://github.com/receptron/graphai-agent-server)
- 
+- ReactでCytoscapeを使いたい場合は、[こちら](https://github.com/receptron/graphai-utils/tree/main/packages/react-cytoscape)を参照してください。 
 ### GraphAIアプリを自動生成するGraphAIアプリ
 
 To be filled.
