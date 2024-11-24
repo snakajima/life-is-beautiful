@@ -57,8 +57,11 @@ GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに�
 
 GraphAIは、OpenAI、Claudeなどのサービス型のLLMだけでなく、Ollamaで走るローカルなLLMを使うことも可能ですが、Ollama向けのオープンソースなWebUIをGraphAIを使って作り、簡単に実験・テストできるだけでなく、様々なアプリも作れる環境を作りたいと考えています。
 
-GraphAIをWebUI上で動かす仕組みは、Vueベースのものが[ここ](https://github.com/receptron/graphai-demo-web)にあるので、これをベースにしてもらっても良いし、Reactなどを使って新たなものを作っていただいても結構です。
-
+GraphAIをWebUI上で動かす仕組みは、以下のものがあるので、これをベースにしてもらっても良いし、新たなものを作っていただいても結構です。
+- [VueベースのWebUI](https://github.com/receptron/graphai-demo-web)
+- [litegraphを使ったもの](https://github.com/receptron/graphai-litegraph)
+- [サーバのagent list api を叩いて動的に利用可能なagentのリストを取得する仕組み](https://github.com/receptron/graphai-playground)、サーバー側は[こちら](https://github.com/receptron/graphai-agent-server)
+ 
 ### GraphAIアプリを自動生成するGraphAIアプリ
 
 To be filled.
