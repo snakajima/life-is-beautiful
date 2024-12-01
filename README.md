@@ -39,8 +39,8 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
    1. GraphAI（オープンソース・プロジェクト）
    2. AI-native 音声版 Instagram（プロダクト開発）
    3. GraphAIのWebインターフェイス（オープンソース・プロジェクト）
-   4. GraphAIアプリを自動生成するGraphAIアプリ（研究）
-   5. AI-native辞書（プロダクト開発）
+   4. AI-native辞書（プロダクト開発）
+   5. GraphAIアプリを自動生成するGraphAIアプリ（研究）
 5. MITライセンスのオープンソースで作っていただきます。
 6. 賞品は、Apple Mac mini（2024年モデル、M4 Pro、メモリ64GB、本体のみ：キーボード・ディスプレイは別途必要）です。４台、用意してあります。
 7. 応募の締め切りは３月上旬を予定しており、3月下旬（22日か23日）にイベントを行う予定です。
@@ -56,6 +56,10 @@ GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに�
 
 GraphAI本体は、シンプルなデータフロー・エンジンで、エージェントやフィルターにより機能を拡張することが可能な設計になっています。
 
+プルリクはもちろんのこと、オープンソースには、さまざまなコントリビューションの方法があるので、詳しくは、以下の記事を参考にしてください。
+
+- [プルリクが全てじゃない！実は喜ばれるOSS貢献の方法8選](https://speakerdeck.com/tkikuc/pururikugaquan-teziyanai-shi-haxi-bareruossgong-xian-nofang-fa-8xuan)
+
 ### AI-native 音声版 Instagram
 
 最新のAI技術を活用することにより、誰でも簡単にpodcastを配信することが出来るサービスと、Tiktokのように自分に適したpodcastを簡単に楽しむことが出来る専用アプリの組み合わせで、「音で情報を得る・学ぶ・楽しむ」時代を加速するサービス＋アプリです。ベースになるアプリは既にオープンソースで作ってあるので([AI Podcaster](https://github.com/snakajima/ai-podcaster))、これを活用して開発していただければ良いと思います。
@@ -68,14 +72,14 @@ GraphAIをWebUI上で動かす仕組みは、以下のものがあるので、�
 - [VueベースのWebUI](https://github.com/receptron/graphai-demo-web)
 - [litegraphを使ったもの](https://github.com/receptron/graphai-litegraph)
 - [サーバのagent list api を叩いて動的に利用可能なagentのリストを取得する仕組み](https://github.com/receptron/graphai-playground)、サーバー側は[こちら](https://github.com/receptron/graphai-agent-server)
-- ReactでCytoscapeを使いたい場合は、[こちら](https://github.com/receptron/graphai-utils/tree/main/packages/react-cytoscape)を参照してください。 
-### GraphAIアプリを自動生成するGraphAIアプリ
-
-To be filled.
+- ReactでCytoscapeを使いたい場合は、[こちら](https://github.com/receptron/graphai-utils/tree/main/packages/react-cytoscape)を参照してください。
 
 ### AI-native辞書
 
 To be filled.
 
+### GraphAIアプリを自動生成するGraphAIアプリ
 
+GraphAIを宣言型のプログラミング環境にした理由の一つが、AIを使った自動生成です。最近のAIはコード生成が出来るようになったとは言え、記述型である限り、出来ることには限度があると考えています。JSONやYAMLで書かれた宣言型のデータフロー・プログラミングであれば、かなり複雑なアプリケーションも自動生成が可能だという「仮説」を立てており、それを実証する実験を開始したところです。
 
+サンプルとしては、必要な情報をユーザーから取得してAPIを呼ぶエージェント、[メタチャット](https://github.com/receptron/graphai/blob/main/packages/samples/src/interaction/metachat.ts)が動いているので、これを参考にして、さまざまな「アプリ生成エージェント」を作成してください。
