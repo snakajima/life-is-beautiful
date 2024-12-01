@@ -54,7 +54,9 @@ GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに�
 
 [GraphAI](https://github.com/receptron/graphai)は、[GraphAI本体（core）](https://github.com/receptron/graphai/tree/main/packages/graphai)、[GraphAI cli](https://github.com/receptron/graphai/tree/main/packages/cli)、[エージェント群](https://github.com/receptron/graphai/tree/main/packages/agents)、[フィルター群](https://github.com/receptron/graphai/tree/main/packages/agent_filters)、[サンプル](https://github.com/receptron/graphai/tree/main/packages/samples)、[ドキュメント](https://github.com/receptron/graphai/tree/main/docs)から構成される大きなリポジトリです。
 
-GraphAI本体は、シンプルなデータフロー・エンジンで、エージェントやフィルターにより機能を拡張することが可能な設計になっています。
+GraphAIは、OpenAIのAPIなど、非同期なAPIを複数回呼び出して作るAIエージェントを、宣言型のデータフロー・プログラミングにより、作りやすく、かつ、効率的に実行するためのTypeScriptライブラリです。
+
+GraphAI本体は、シンプルなデータフローの実行エンジンで、エージェントやフィルターにより機能を拡張することが可能な設計になっています。
 
 やりたいこと
 
@@ -67,8 +69,6 @@ GraphAI本体は、シンプルなデータフロー・エンジンで、エー�
 - 公式Webサイト
 - codepenなどのサンプル追加
 - release manager＆PM欲しい
-- 関連docuementを紹介しておく(https://zenn.dev/topics/graphai)
-- 11/23の資料をuploadしてreadmeからリンクを貼る（　https://speakerdeck.com/ )
 - だれかがdifyでつくったものを、だれかがgraphaiに移植してみる＜動画、記事化
 
 プルリクはもちろんのこと、オープンソースには、さまざまなコントリビューションの方法があるので、詳しくは、以下の記事を参考にしてください。
