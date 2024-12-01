@@ -56,6 +56,21 @@ GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに�
 
 GraphAI本体は、シンプルなデータフロー・エンジンで、エージェントやフィルターにより機能を拡張することが可能な設計になっています。
 
+やりたいこと
+
+- 実用的なagent/agent filterを増やす
+- それらを利用したサンプルの充実
+- マルチエージェントのデザインパターンなどを参考に、実用的なマルチエージェントのサンプル、テンプレートを作る
+- 使ってみた系、作ってみた系の記事
+- Dify等の関連ツールからGraphAIにデータを移行するためのデータコンバーター
+- 日本語、英語のドキュメントの追加、整理
+- 公式Webサイト
+- codepenなどのサンプル追加
+- release manager＆PM欲しい
+- 関連docuementを紹介しておく(https://zenn.dev/topics/graphai)
+- 11/23の資料をuploadしてreadmeからリンクを貼る（　https://speakerdeck.com/ )
+- だれかがdifyでつくったものを、だれかがgraphaiに移植してみる＜動画、記事化
+
 プルリクはもちろんのこと、オープンソースには、さまざまなコントリビューションの方法があるので、詳しくは、以下の記事を参考にしてください。
 
 - [プルリクが全てじゃない！実は喜ばれるOSS貢献の方法8選](https://speakerdeck.com/tkikuc/pururikugaquan-teziyanai-shi-haxi-bareruossgong-xian-nofang-fa-8xuan)
