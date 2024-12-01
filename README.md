@@ -36,7 +36,7 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
 1. [GraphAI](https://github.com/receptron/graphai)を活用した製品・サービス（プロトタイプも可）をオープンソースな形で作っていただきます。
 2. ハッカソンのように1日で作るのではなく、11月末から3月半ばまでの４ヶ月間の期間で行います。
 3. お題としては、以下の５つがあります（詳しくは下記）。
-   1. GraphAIそのもの（オープンソース・プロジェクト）
+   1. GraphAI（オープンソース・プロジェクト）
    2. AI-native 音声版 Instagram（プロダクト開発）
    3. GraphAIのWebインターフェイス（オープンソース・プロジェクト）
    4. GraphAIアプリを自動生成するGraphAIアプリ（研究）
@@ -50,9 +50,11 @@ Issueの投稿は、[このリポジトリ](https://github.com/snakajima/life-is
 
 GraphAIの勉強した内容や、開発中のGraphAIのtipsをzennやqiitaに投稿していただけると、ハッカソンでの審査でその過程を考慮します。投稿時にはtagでGraphAIとつけてください。
 
-### GraphAIそのもの
+### GraphAI
 
-to be filled
+[GraphAI](https://github.com/receptron/graphai)は、[GraphAI本体（core）](https://github.com/receptron/graphai/tree/main/packages/graphai)、[GraphAI cli](https://github.com/receptron/graphai/tree/main/packages/cli)、[エージェント群](https://github.com/receptron/graphai/tree/main/packages/agents)、[フィルター群](https://github.com/receptron/graphai/tree/main/packages/agent_filters)、[サンプル](https://github.com/receptron/graphai/tree/main/packages/samples)、[ドキュメント](https://github.com/receptron/graphai/tree/main/docs)から構成される大きなリポジトリです。
+
+GraphAI本体は、シンプルなデータフロー・エンジンで、エージェントやフィルターにより機能を拡張することが可能な設計になっています。
 
 ### AI-native 音声版 Instagram
 
