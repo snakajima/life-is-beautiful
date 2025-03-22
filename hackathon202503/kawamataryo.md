@@ -6,6 +6,7 @@ GraphAIの公式ドキュメントの基盤をVitepressで作成しました。�
 - [#977 Setup official document](https://github.com/receptron/graphai/pull/977)
 - [#981 Add tutorial template for ja and fix edit link](https://github.com/receptron/graphai/pull/981)
 - [#984 Change vitepress root](https://github.com/receptron/graphai/pull/984)
+- [#1010 Add external agents docs](https://github.com/receptron/graphai/pull/1010)
 
 <img src="https://github.com/user-attachments/assets/053b4438-2812-44d8-84d5-f4f3e1bcf4d3" width="700">
 
